@@ -75,7 +75,9 @@ GENRE [<a href="https://arxiv.org/abs/2010.00904">De Cao et al., 2020</a>],
 ELQ [<a href="https://arxiv.org/abs/2010.02413">Li et al., 2020</a>]) are provided for all 400 queries from the DL 
 2019/20 test datasets. </p>
 
-<p> Golden entity links can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a></p>
+<p> Golden entity links linking to Wikipedia can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a>. 
+Also include are annotations: (1) Answer in Link: whether question answer in linked Wikipedia page, and (2) Core 
+Entities in Wiki: whether any core entities within the question were not found in Wikipedia. </p>
 
 <p> SOTA entity linkers results can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/entity_linker_results.json">here</a></p>
 
