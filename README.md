@@ -7,7 +7,7 @@
     <h2 align="center">Annotated Deep Learning Dataset For Passage and Document Retrieval</h2>
 
 <!-- TABLE OF CONTENTS -->
-  <summary>Table of Contents</summary>
+  <h5>Table of Contents</h5>
   <ol>
     <li><a href="#overview">Overview</a>
     <li><a href="#dataset">Dataset</a></li>
