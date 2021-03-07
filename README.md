@@ -158,12 +158,6 @@ These runs utilities the standard 5-folds for cross-validation and the outlined 
     <td class="tg-0pky"></td>
     <td class="tg-0lax"></td>
   </tr>
-  <tr>
-    <td class="tg-0pky">PARADE</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
-  </tr>
 </tbody>
 </table>
 
