@@ -20,7 +20,9 @@
   </ol>
 </details>
 
-Paper overview: <a href="">link</a>
+Paper overview: <a href="">link</a> 
+
+<img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram">
 
 
 <!-- Overview -->
