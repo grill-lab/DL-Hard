@@ -1,0 +1,1047 @@
+{
+    "2019": {
+        "1115776": {
+            "text": "what is an aml surveillance analyst",
+            "gold_links": [
+                {
+                    "aml": "https://en.wikipedia.org/wiki/Money_laundering"
+                },
+                {
+                    "analyst": "https://en.wikipedia.org/wiki/Financial_analyst"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "915593": {
+            "text": "what types of food can you cook sous vide",
+            "gold_links": [
+                {
+                    "food": "https://en.wikipedia.org/wiki/Food"
+                },
+                {
+                    "cook": "https://en.wikipedia.org/wiki/Cooking"
+                },
+                {
+                    "sous vide": "https://en.wikipedia.org/wiki/Sous_vide"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "146187": {
+            "text": "difference between a mcdouble and a double cheeseburger",
+            "gold_links": [
+                {
+                    "mcdouble": "https://en.wikipedia.org/wiki/McDouble"
+                },
+                {
+                    "double cheeseburger": "https://en.wikipedia.org/wiki/Cheeseburger"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "451602": {
+            "text": "medicare's definition of mechanical ventilation",
+            "gold_links": [
+                {
+                    "medicare": "https://en.wikipedia.org/wiki/Medicare_(United_States)"
+                },
+                {
+                    "mechanical ventilation": "https://en.wikipedia.org/wiki/Mechanical_ventilation"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "148538": {
+            "text": "difference between rn and bsn",
+            "gold_links": [
+                {
+                    "rn": "https://en.wikipedia.org/wiki/Registered_nurse"
+                },
+                {
+                    "bsn": "https://en.wikipedia.org/wiki/Bachelor_of_Science_in_Nursing"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "527433": {
+            "text": "types of dysarthria from cerebral palsy",
+            "gold_links": [
+                {
+                    "dysarthria": "https://en.wikipedia.org/wiki/Dysarthria"
+                },
+                {
+                    "cerebral palsy": "https://en.wikipedia.org/wiki/Cerebral_palsy"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "855410": {
+            "text": "what is theraderm used for",
+            "gold_links": [
+                {
+                    "theraderm": "https://en.wikipedia.org/wiki/Theraderm"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "87181": {
+            "text": "causes of left ventricular hypertrophy",
+            "gold_links": [
+                {
+                    "causes": "https://en.wikipedia.org/wiki/Cause_(medicine)"
+                },
+                {
+                    "left ventricular hypertrophy": "https://en.wikipedia.org/wiki/Left_ventricular_hypertrophy"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1114646": {
+            "text": "what is famvir prescribed for",
+            "gold_links": [
+                {
+                    "famvir": "https://en.wikipedia.org/wiki/Famciclovir"
+                },
+                {
+                    "prescribed": "https://en.wikipedia.org/wiki/Medical_prescription"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "87452": {
+            "text": "causes of military suicide",
+            "gold_links": [
+                {
+                    "military suicide": "https://en.wikipedia.org/wiki/United_States_military_veteran_suicide"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "489204": {
+            "text": "right pelvic pain causes",
+            "gold_links": [
+                {
+                    "pelvic pain": "https://en.wikipedia.org/wiki/Pelvic_pain"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "182539": {
+            "text": "example of monotonic function",
+            "gold_links": [
+                {
+                    "monotonic function": "https://en.wikipedia.org/wiki/Monotonic_function"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1114819": {
+            "text": "what is durable medical equipment consist of",
+            "gold_links": [
+                {
+                    "durable medical equipment": "https://en.wikipedia.org/wiki/Durable_medical_equipment"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "287683": {
+            "text": "how many liberty ships were built in brunswick",
+            "gold_links": [
+                {
+                    "liberty ships": "https://en.wikipedia.org/wiki/Liberty_ship"
+                },
+                {
+                    "brunswick": "https://en.wikipedia.org/wiki/Brunswick,_Georgia"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1063750": {
+            "text": "why did the us volunterilay enter ww1",
+            "gold_links": [
+                {
+                    "us": "https://en.wikipedia.org/wiki/United_States"
+                },
+                {
+                    "ww1": "https://en.wikipedia.org/wiki/United_States_in_World_War_I"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1106007": {
+            "text": "define visceral?",
+            "gold_links": [
+                {
+                    "visceral": "https://en.wikipedia.org/wiki/Viscera_(disambiguation)"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "443396": {
+            "text": "lps laws definition",
+            "gold_links": [
+                {
+                    "lps laws": "https://en.wikipedia.org/wiki/Lanterman%E2%80%93Petris%E2%80%93Short_Act"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1133167": {
+            "text": "how is the weather in jamaica",
+            "gold_links": [
+                {
+                    "weather": "https://en.wikipedia.org/wiki/Weather"
+                },
+                {
+                    "jamaica": "https://en.wikipedia.org/wiki/Jamaica"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "359349": {
+            "text": "how to find the midsegment of a trapezoid",
+            "gold_links": [
+                {
+                    "trapezoid": "https://en.wikipedia.org/wiki/Trapezoid"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "156493": {
+            "text": "do goldfish grow",
+            "gold_links": [
+                {
+                    "goldfish": "https://en.wikipedia.org/wiki/Goldfish"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "183378": {
+            "text": "exons definition biology",
+            "gold_links": [
+                {
+                    "exons": "https://en.wikipedia.org/wiki/Exon"
+                },
+                {
+                    "biology": "https://en.wikipedia.org/wiki/Biology"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "207786": {
+            "text": "how are some sharks warm blooded",
+            "gold_links": [
+                {
+                    "sharks": "https://en.wikipedia.org/wiki/Shark"
+                },
+                {
+                    "warm blooded": "https://en.wikipedia.org/wiki/Warm-blooded"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "47923": {
+            "text": "axon terminals or synaptic knob definition",
+            "gold_links": [
+                {
+                    "axon terminals": "https://en.wikipedia.org/wiki/Axon_terminal"
+                },
+                {
+                    "synaptic knob": "https://en.wikipedia.org/wiki/Axon_terminal"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1113437": {
+            "text": "what is physical description of spruce",
+            "gold_links": [
+                {
+                    "spruce": "https://en.wikipedia.org/wiki/Spruce"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1124210": {
+            "text": "tracheids are part of _____.",
+            "gold_links": [
+                {
+                    "tracheids": "https://en.wikipedia.org/wiki/Tracheid"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "264014": {
+            "text": "how long is life cycle of flea",
+            "gold_links": [
+                {
+                    "life cycle": "https://en.wikipedia.org/wiki/Biological_life_cycle"
+                },
+                {
+                    "flea": "https://en.wikipedia.org/wiki/Flea"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1129237": {
+            "text": "hydrogen is a liquid below what temperature",
+            "gold_links": [
+                {
+                    "hydrogen": "https://en.wikipedia.org/wiki/Hydrogen"
+                },
+                {
+                    "liquid": "https://en.wikipedia.org/wiki/Liquid"
+                },
+                {
+                    "temperature": "https://en.wikipedia.org/wiki/Temperature"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1132213": {
+            "text": "how long to hold bow in yoga",
+            "gold_links": [
+                {
+                    "bow": "https://en.wikipedia.org/wiki/Dhanurasana"
+                },
+                {
+                    "yoga": "https://en.wikipedia.org/wiki/Yoga"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "490595": {
+            "text": "rsa definition key",
+            "gold_links": [
+                {
+                    "rsa": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1110199": {
+            "text": "what is wifi vs bluetooth",
+            "gold_links": [
+                {
+                    "wifi": "https://en.wikipedia.org/wiki/Wi-Fi"
+                },
+                {
+                    "bluetooth": "https://en.wikipedia.org/wiki/Bluetooth"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1121402": {
+            "text": "what can contour plowing reduce",
+            "gold_links": [
+                {
+                    "contour plowing": "https://en.wikipedia.org/wiki/Contour_plowing"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "104861": {
+            "text": "cost of interior concrete flooring",
+            "gold_links": [
+                {
+                    "concrete": "https://en.wikipedia.org/wiki/Concrete"
+                },
+                {
+                    "flooring": "https://en.wikipedia.org/wiki/Flooring"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "833860": {
+            "text": "what is the most popular food in switzerland",
+            "gold_links": [
+                {
+                    "popular food": "https://en.wikipedia.org/wiki/Swiss_cuisine"
+                },
+                {
+                    "switzerland": "https://en.wikipedia.org/wiki/Switzerland"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1112341": {
+            "text": "what is the daily life of thai people",
+            "gold_links": [
+                {
+                    "daily life": "https://en.wikipedia.org/wiki/Everyday_life"
+                },
+                {
+                    "thai people": "https://en.wikipedia.org/wiki/Thai_people"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "405717": {
+            "text": "is cdg airport in main paris",
+            "gold_links": [
+                {
+                    "cdg airport": "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport"
+                },
+                {
+                    "paris": "https://en.wikipedia.org/wiki/Paris"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "573724": {
+            "text": "what are the social determinants of health",
+            "gold_links": [
+                {
+                    "social determinants of health": "https://en.wikipedia.org/wiki/Social_determinants_of_health"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "962179": {
+            "text": "when was the salvation army founded",
+            "gold_links": [
+                {
+                    "salvation army": "https://en.wikipedia.org/wiki/The_Salvation_Army"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1103812": {
+            "text": "who formed the commonwealth of independent states",
+            "gold_links": [
+                {
+                    "commonwealth of independent states": "https://en.wikipedia.org/wiki/Commonwealth_of_Independent_States"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1037798": {
+            "text": "who is robert gray",
+            "gold_links": [
+                {
+                    "robert gray": "https://en.wikipedia.org/wiki/Robert_Gray"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "130510": {
+            "text": "definition declaratory judgment",
+            "gold_links": [
+                {
+                    "Declaratory judgment": "https://en.wikipedia.org/wiki/Declaratory_judgment"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "19335": {
+            "text": "anthropological definition of environment",
+            "gold_links": [
+                {
+                    "anthropological": "https://en.wikipedia.org/wiki/Anthropology"
+                },
+                {
+                    "environment": "https://en.wikipedia.org/wiki/Natural_environment"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "131843": {
+            "text": "definition of a sigmet",
+            "gold_links": [
+                {
+                    "sigmet": "https://en.wikipedia.org/wiki/SIGMET"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1117099": {
+            "text": "what is a active margin",
+            "gold_links": [
+                {
+                    "active margin": "https://en.wikipedia.org/wiki/Convergent_boundary"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        }
+    },
+    "2020": {
+        "1136047": {
+            "text": "difference between a company's strategy and business model is",
+            "gold_links": [
+                {
+                    "company": "https://en.wikipedia.org/wiki/Company"
+                },
+                {
+                    "strategy": "https://en.wikipedia.org/wiki/Strategy"
+                },
+                {
+                    "business model": "https://en.wikipedia.org/wiki/Business_model"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "42255": {
+            "text": "average salary for dental hygienist in nebraska",
+            "gold_links": [
+                {
+                    "average salary": "https://en.wikipedia.org/wiki/Average_worker%27s_wage"
+                },
+                {
+                    "dental hygienist": "https://en.wikipedia.org/wiki/Dental_hygienist"
+                },
+                {
+                    "nebraska": "https://en.wikipedia.org/wiki/Nebraska"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "324585": {
+            "text": "how much money do motivational speakers make",
+            "gold_links": [
+                {
+                    "money": "https://en.wikipedia.org/wiki/Money"
+                },
+                {
+                    "motivational speakers": "https://en.wikipedia.org/wiki/Motivational_speaker"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "330975": {
+            "text": "how much would it cost to install my own wind turbine",
+            "gold_links": [
+                {
+                    "cost": "https://en.wikipedia.org/wiki/Cost"
+                },
+                {
+                    "wind turbine": "https://en.wikipedia.org/wiki/Wind_turbine"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1132532": {
+            "text": "average annual income data analyst",
+            "gold_links": [
+                {
+                    "annual income": "https://en.wikipedia.org/wiki/Income"
+                },
+                {
+                    "data analyst": "https://en.wikipedia.org/wiki/Data_analysis"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "1113256": {
+            "text": "what is reba mcentire's net worth",
+            "gold_links": [
+                {
+                    "reba mcentire": "https://en.wikipedia.org/wiki/Reba_McEntire"
+                },
+                {
+                    "net worth": "https://en.wikipedia.org/wiki/Net_worth"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "940547": {
+            "text": "when did rock n roll begin?",
+            "gold_links": [
+                {
+                    "rock n roll": "https://en.wikipedia.org/wiki/Rock_and_roll"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1051399": {
+            "text": "who sings monk theme song",
+            "gold_links": [
+                {
+                    "monk theme song": "https://en.wikipedia.org/wiki/Monk_(soundtrack)"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "997622": {
+            "text": "where is the show shameless filmed",
+            "gold_links": [
+                {
+                    "shameless": "https://en.wikipedia.org/wiki/Shameless_(British_TV_series)"
+                },
+                {
+                    "filmed": "https://en.wikipedia.org/wiki/Filmmaking"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "47210": {
+            "text": "average wedding dress alteration cost",
+            "gold_links": [
+                {
+                    "wedding dress": "https://en.wikipedia.org/wiki/Wedding_dress"
+                },
+                {
+                    "alteration": "https://en.wikipedia.org/wiki/Dressmaker"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "169208": {
+            "text": "does mississippi have an income tax",
+            "gold_links": [
+                {
+                    "mississippi": "https://en.wikipedia.org/wiki/Mississippi"
+                },
+                {
+                    "income tax": "https://en.wikipedia.org/wiki/Income_tax"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1108729": {
+            "text": "what temperature and humidity to dry sausage",
+            "gold_links": [
+                {
+                    "temperature": "https://en.wikipedia.org/wiki/Temperature"
+                },
+                {
+                    "humidity": "https://en.wikipedia.org/wiki/Humidity"
+                },
+                {
+                    "sausage": "https://en.wikipedia.org/wiki/Sausage"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1119543": {
+            "text": "what does a psychological screening consist of for egg donors",
+            "gold_links": [
+                {
+                    "psychological screening": "https://en.wikipedia.org/wiki/Psychiatric_assessment"
+                },
+                {
+                    "egg donors": "https://en.wikipedia.org/wiki/Egg_donation"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "258062": {
+            "text": "how long does it take to remove wisdom tooth",
+            "gold_links": [
+                {
+                    "remove": "https://en.wikipedia.org/wiki/Dental_extraction"
+                },
+                {
+                    "wisdom tooth": "https://en.wikipedia.org/wiki/Wisdom_tooth"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "877809": {
+            "text": "what metal are hip replacements made of",
+            "gold_links": [
+                {
+                    "metal": "https://en.wikipedia.org/wiki/Metal"
+                },
+                {
+                    "hip replacements": "https://en.wikipedia.org/wiki/Hip_replacement"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "730539": {
+            "text": "what is chronometer who invented it",
+            "gold_links": [
+                {
+                    "chronometer": "https://en.wikipedia.org/wiki/Chronometer_watch"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1043135": {
+            "text": "who killed nicholas ii of russia",
+            "gold_links": [
+                {
+                    "nicholas ii of russia": "https://en.wikipedia.org/wiki/Nicholas_II_of_Russia"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "67316": {
+            "text": "can fever cause miscarriage early pregnancy",
+            "gold_links": [
+                {
+                    "fever": "https://en.wikipedia.org/wiki/Fever"
+                },
+                {
+                    "miscarriage": "https://en.wikipedia.org/wiki/Miscarriage"
+                },
+                {
+                    "pregnancy": "https://en.wikipedia.org/wiki/Pregnancy"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1136962": {
+            "text": "why did the ancient egyptians call their land kemet, or black land?",
+            "gold_links": [
+                {
+                    "ancient egyptians": "https://en.wikipedia.org/wiki/Ancient_Egypt"
+                },
+                {
+                    "kemet": "https://en.wikipedia.org/wiki/Egypt"
+                },
+                {
+                    "black land": "https://en.wikipedia.org/wiki/Egypt"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "135802": {
+            "text": "definition of laudable",
+            "gold_links": [
+                {
+                    "laudable": "https://en.wikipedia.org/wiki/Laudative"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "1127540": {
+            "text": "meaning of shebang",
+            "gold_links": [
+                {
+                    "shebang": "https://en.wiktionary.org/wiki/shebang"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "701453": {
+            "text": "what is a statutory deed",
+            "gold_links": [
+                {
+                    "statutory deed": "https://en.wikipedia.org/wiki/Deed"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "911232": {
+            "text": "what type of conflict does della face in o, henry the gift of the magi",
+            "gold_links": [
+                {
+                    "o, henry": "https://en.wikipedia.org/wiki/O._Henry"
+                },
+                {
+                    "the gift of the magi": "https://en.wikipedia.org/wiki/The_Gift_of_the_Magi"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1049519": {
+            "text": "who said no one can make you feel inferior",
+            "gold_links": [
+                {
+                    "inferior": "https://en.wikipedia.org/wiki/Inferiority_complex"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "174463": {
+            "text": "dog day afternoon meaning",
+            "gold_links": [
+                {
+                    "dog day": "https://en.wikipedia.org/wiki/Dog_days"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "332593": {
+            "text": "how often to button quail lay eggs",
+            "gold_links": [
+                {
+                    "button quail": "https://en.wikipedia.org/wiki/Buttonquail"
+                },
+                {
+                    "eggs": "https://en.wikipedia.org/wiki/Egg"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1116380": {
+            "text": "what is a nonconformity? earth science",
+            "gold_links": [
+                {
+                    "nonconformity": "https://en.wikipedia.org/wiki/Unconformity"
+                },
+                {
+                    "earth science": "https://en.wikipedia.org/wiki/Earth_science"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1122767": {
+            "text": "what amino produces carnitine",
+            "gold_links": [
+                {
+                    "amino": "https://en.wikipedia.org/wiki/Amino_acid"
+                },
+                {
+                    "carnitine": "https://en.wikipedia.org/wiki/Carnitine"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1109707": {
+            "text": "what medium do radio waves travel through",
+            "gold_links": [
+                {
+                    "medium": "https://en.wikipedia.org/wiki/Transmission_medium"
+                },
+                {
+                    "radio waves": "https://en.wikipedia.org/wiki/Radio_wave"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1136769": {
+            "text": "why does lacquered brass tarnish",
+            "gold_links": [
+                {
+                    "lacquered brass": "https://en.wikipedia.org/wiki/Brass"
+                },
+                {
+                    "tarnish": "https://en.wikipedia.org/wiki/Tarnish"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 0.0
+        },
+        "1056416": {
+            "text": "who was the highest career passer rating in the nfl",
+            "gold_links": [
+                {
+                    "career passer  rating": "https://en.wikipedia.org/wiki/List_of_National_Football_League_career_passer_rating_leaders"
+                },
+                {
+                    "nfl": "https://en.wikipedia.org/wiki/National_Football_League"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1071750": {
+            "text": "why is pete rose banned from hall of fame",
+            "gold_links": [
+                {
+                    "pete rose": "https://en.wikipedia.org/wiki/Pete_Rose"
+                },
+                {
+                    "hall of fame": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1115210": {
+            "text": "what is chaff and flare",
+            "gold_links": [
+                {
+                    "chaff": "https://en.wikipedia.org/wiki/Chaff_(countermeasure)"
+                },
+                {
+                    "flare": "https://en.wikipedia.org/wiki/Flare_(countermeasure)"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "156498": {
+            "text": "do google docs auto save",
+            "gold_links": [
+                {
+                    "google docs": "https://en.wikipedia.org/wiki/Google_Docs"
+                },
+                {
+                    "auto save": "https://en.wikipedia.org/wiki/Autosave"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1136043": {
+            "text": "difference between a hotel and motel",
+            "gold_links": [
+                {
+                    "hotel": "https://en.wikipedia.org/wiki/Hotel"
+                },
+                {
+                    "motel": "https://en.wikipedia.org/wiki/Motel"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1131069": {
+            "text": "how many sons robert kraft has",
+            "gold_links": [
+                {
+                    "robert kraft": "https://en.wikipedia.org/wiki/Robert_Kraft"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "336901": {
+            "text": "how old is vanessa redgrave",
+            "gold_links": [
+                {
+                    "venessa redgrave": "https://en.wikipedia.org/wiki/Vanessa_Redgrave"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "938400": {
+            "text": "when did family feud come out?",
+            "gold_links": [
+                {
+                    "family feud": "https://en.wikipedia.org/wiki/Family_Feud"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "768208": {
+            "text": "what is mamey",
+            "gold_links": [
+                {
+                    "mamey": "https://en.wikipedia.org/wiki/Mamey"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "673670": {
+            "text": "what is a alm",
+            "gold_links": [
+                {
+                    "alm": "https://en.wikipedia.org/wiki/Alms"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1103153": {
+            "text": "who is thomas m cooley",
+            "gold_links": [
+                {
+                    "thomas m cooley": "https://en.wikipedia.org/wiki/Thomas_M._Cooley"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1037496": {
+            "text": "who is rep scalise?",
+            "gold_links": [
+                {
+                    "re scalise": "https://en.wikipedia.org/wiki/Steve_Scalise"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1105792": {
+            "text": "define: geon",
+            "gold_links": [
+                {
+                    "geon": "https://en.wikipedia.org/wiki/Geon"
+                }
+            ],
+            "answer_in_link": 0.0,
+            "core_entities_in_wiki": 1.0
+        },
+        "1064670": {
+            "text": "why do hunters pattern their shotguns?",
+            "gold_links": [
+                {
+                    "hunters": "https://en.wikipedia.org/wiki/Hunting"
+                },
+                {
+                    "shotguns": "https://en.wikipedia.org/wiki/Shotgun"
+                }
+            ],
+            "answer_in_link": 1.0,
+            "core_entities_in_wiki": 1.0
+        }
+    }
+}
