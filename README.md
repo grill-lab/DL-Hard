@@ -61,7 +61,7 @@ The annotations tsv has the following columns: </p>
   
 <p> Diagram of annotations:</p>
 <p align="center">
-    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram" width="750" height="375" >
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram" width="700" height="350" >
 
 <p> See paper for more details: <a href="">link</a> </p> 
 
