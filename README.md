@@ -50,13 +50,13 @@ that promotes research on neural ranking methods by focusing on challenging and 
 <p> Annotations are provided for 400 queries from the DL 2019/20 test datasets (<a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/query/annotations.tsv">link</a>).
 The annotations tsv has the following columns: </p> 
   <ul>
-    <li>0: Topic id</li>
-    <li>1: Query</li>
-    <li>2: Query Intent: Recently developed question intent taxonomy developed for web questions 
+    <li>0: <i>Topic id</i></li>
+    <li>1: <i>Query</i></li>
+    <li>2: <i>Query Intent</i>: Recently developed question intent taxonomy developed for web questions 
     [<a href="http://marksanderson.org/publications/my_papers/CHIIR21b.pdf">Cambazoglu et al., 2021</a>]. </li>
-    <li>3: Answer Type: Manual annotation of target answer type for web questions. </li>
-    <li>4: Topic Domain: Breakdown of questions by topic domain. </li>
-    <li>5: SERP Result Type: Answer type provided by the Search Engine Results Page (SERP). HTML of queries found: <a href="https://drive.google.com/file/d/1l6o9U9Qtu21MS9F27bkfEbN95yeDsu9S/view?usp=sharing">here</a>. </li>
+    <li>3: <i>Answer Type</i>: Manual annotation of target answer type for web questions. </li>
+    <li>4: <i>Topic Domain</i>: Breakdown of questions by topic domain. </li>
+    <li>5: <i>SERP Result Type</i>: Answer type provided by the Search Engine Results Page (SERP). HTML of queries found: <a href="https://drive.google.com/file/d/1l6o9U9Qtu21MS9F27bkfEbN95yeDsu9S/view?usp=sharing">here</a>. </li>
   </ul>
   
 <p> Diagram of annotations:</p>
@@ -76,8 +76,8 @@ ELQ [<a href="https://arxiv.org/abs/2010.02413">Li et al., 2020</a>]) are provid
 2019/20 test datasets. </p>
 
 <p> Golden entity links linking to Wikipedia can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a>. 
-Also include are annotations: (1) Answer in Link: whether question answer in linked Wikipedia page, and (2) Core 
-Entities in Wiki: whether any core entities within the question were not found in Wikipedia. </p>
+Also include are annotations: (1) <i>Answer in Link</i>: whether question answer in linked Wikipedia page, and (2) <i>Core 
+Entities in Wiki</i>: whether any core entities within the question were not found in Wikipedia. </p>
 
 <p> SOTA entity linkers results can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/entity_linker_results.json">here</a></p>
 
