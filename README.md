@@ -94,10 +94,10 @@ Results:
 </thead>
 <tbody>
   <tr>
-    <td class="tg-1wig">DL-Hard (Doc)</td>
+    <td class="tg-1wig">System</td>
     <td class="tg-1wig">NDCG@10</td>
     <td class="tg-1wig">RR</td>
-    <td class="tg-1wig"><span style="font-weight:400;font-style:normal">NDCG@10</span></td>
+    <td class="tg-1wig"><span style="font-style:normal">NDCG@10</span></td>
     <td class="tg-1wig">RR</td>
   </tr>
   <tr>
