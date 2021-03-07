@@ -83,7 +83,7 @@ Entities in Wiki</i>: whether any core entities within the question were not fou
 <h3 id="evaluation">Evaluation</h3>
 
 <p> Official metrics for DL-Hard are NDCG@10 and RR. For binary metrics, labels of two or greater should be considered as 
-relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_trec"</i>. </p>
+relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M100 -q -m all_trec"</i>. </p>
 
 <!-- Baselines -->
 <h3 id="baselines">Baselines</h3>
@@ -99,33 +99,38 @@ These runs utilities the standard 5-folds for cross-validation and the outlined 
     <th class="tg-fymr">System</th>
     <th class="tg-fymr">NDCG@10</th>
     <th class="tg-fymr">RR</th>
-    <th class="tg-0lax">Recall@1000</th>
+    <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Recall@100</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">0.252</td>
+    <td class="tg-0pky">0.353</td>
+    <td class="tg-0lax">0.144</td>
+    <td class="tg-0pky">0.521</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">0.251</td>
+    <td class="tg-0pky">0.301</td>
+    <td class="tg-0lax">0.134</td>
+    <td class="tg-0pky">0.521</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0lax"></td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">PARADE</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0lax"></td>
+    <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
@@ -138,32 +143,39 @@ These runs utilities the standard 5-folds for cross-validation and the outlined 
     <th class="tg-fymr">System</th>
     <th class="tg-fymr">NDCG@10</th>
     <th class="tg-fymr">RR</th>
-    <th class="tg-0lax">Recall@1000</th>
+    <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Recall@100</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">0.285</td>
+    <td class="tg-0pky">0.475</td>
+    <td class="tg-0lax">0.145</td>
+    <td class="tg-0pky">0.430</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">0.261</td>
+    <td class="tg-0pky">0.409</td>
+    <td class="tg-0lax">0.146</td>
+    <td class="tg-0pky">0.429</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
     <td class="tg-0lax"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">PARADE</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
-
-
-
-  
 
