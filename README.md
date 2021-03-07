@@ -22,9 +22,6 @@
 
 Paper overview: <a href="">link</a> 
 
-<img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram">
-
-
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
 
@@ -62,6 +59,9 @@ The annotations tsv has the following columns: </p>
     <li>5: SERP Result Type: Answer type provided by the Search Engine Results Page (SERP). HTML of queries found: <a href="https://drive.google.com/file/d/1l6o9U9Qtu21MS9F27bkfEbN95yeDsu9S/view?usp=sharing">here</a>. </li>
   </ul>
   
+<p> Diagram of annotations:</p>
+<img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram">
+
 <p> See paper for more details: <a href="">link</a> </p> 
 
 <!-- Entity Links -->
