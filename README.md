@@ -7,7 +7,6 @@
     <h2 align="center">Annotated Deep Learning Dataset For Passage and Document Retrieval</h2>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#overview">Overview</a>
@@ -16,9 +15,7 @@
     <li><a href="#entity-links">Entity Links</a></li>
     <li><a href="#evaluation">Evaluation</a></li>
     <li><a href="#baselines">Baselines</a></li>
-
   </ol>
-</details>
 
 Paper overview: <a href="">link</a> 
 
