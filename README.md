@@ -39,7 +39,7 @@ that promotes research on neural ranking methods by focusing on challenging and 
 <h3 id="dataset">Dataset</h3>
 <p> DL-Hard provides 49 queries for passage and document retrieval: </p> 
   <ul>
-    <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/topics.tsv">Topics</a> (MS Marco format, i.e. topic id, query) 
+    <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/topics.tsv">Topics</a> (MS Marco format, i.e. <topic id, query>) 
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/dl_hard-passage.qrels">Passage qrels</a></li>
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/dl_hard-doc.qrels">Document qrels</a></li>
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">Standard 5-folds</a></li>
@@ -81,12 +81,12 @@ ELQ [<a href="https://arxiv.org/abs/2010.02413">Li et al., 2020</a>]) are provid
 <h3 id="evaluation">Evaluation</h3>
 
 <p> Official metrics for DL-Hard are NDCG@10 and RR. For binary metrics, labels of two or greater should be considered as 
-relevant - command using trec_eval: "trec_eval -l 2 -o -c -M1000 -q -m all_trec". </p>
+relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_trec"</i>. </p>
 
 <!-- Baselines -->
 <h3 id="baselines">Baselines</h3>
 
-<p>Baseline runs and trec_evals can be found here in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/">link</a>. 
+<p>Baseline runs and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
 These runs utilities the standard 5-folds for cross-validation and the outlined trec_eval procedure.</p>
 
 <h5> Document Baselines: </h5>
