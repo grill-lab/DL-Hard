@@ -19,6 +19,8 @@
 
 Paper overview: <a href="">link</a> 
 
+Colab demo: <a href=https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing>link</a> 
+
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
 
@@ -45,6 +47,7 @@ that promotes research on neural ranking methods by focusing on challenging and 
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">Standard 5-folds</a></li>
   </ul> 
 
+Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
 <!-- Annotations -->
 <h3 id="annotations">Annotations</h3>
@@ -87,13 +90,13 @@ Entities in Wiki</i>: whether any core entities within the question were not fou
 <h3 id="evaluation">Evaluation</h3>
 
 <p> Official metrics for DL-Hard are NDCG@10 and RR. For binary metrics, labels of two or greater should be considered as 
-relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M100 -q -m all_trec"</i>. </p>
+relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_trec"</i>. </p>
 
 <!-- Baselines -->
 <h3 id="baselines">Baselines</h3>
 
-<p>Baseline runs and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
-These runs utilities the standard 5-folds for cross-validation and the outlined trec_eval procedure.</p>
+<p>Baseline runs, used parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
+These runs utilities the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
 
 <h5> Document Baselines: </h5>
 
@@ -104,23 +107,23 @@ These runs utilities the standard 5-folds for cross-validation and the outlined 
     <th class="tg-fymr">NDCG@10</th>
     <th class="tg-fymr">RR</th>
     <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Recall@100</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Recall@1000</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.252</td>
-    <td class="tg-0pky">0.353</td>
-    <td class="tg-0lax">0.144</td>
-    <td class="tg-0pky">0.521</td>
+    <td class="tg-0pky">0.262</td>
+    <td class="tg-0pky">0.347</td>
+    <td class="tg-0lax">0.168</td>
+    <td class="tg-0pky">0.817</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky">0.251</td>
-    <td class="tg-0pky">0.301</td>
-    <td class="tg-0lax">0.134</td>
-    <td class="tg-0pky">0.521</td>
+    <td class="tg-0pky">0.310</td>
+    <td class="tg-0pky">0.333</td>
+    <td class="tg-0lax">0.248</td>
+    <td class="tg-0pky">0.778</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
