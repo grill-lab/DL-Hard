@@ -19,7 +19,7 @@
 
 Paper overview: <a href="">link</a> 
 
-Colab demo: <a href=https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing>link</a> 
+Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
@@ -97,6 +97,8 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 
 <p>Baseline runs, used parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
 These runs utilities the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
+
+Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
 <h5> Document Baselines: </h5>
 
