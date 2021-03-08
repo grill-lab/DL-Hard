@@ -47,6 +47,8 @@ that promotes research on neural ranking methods by focusing on challenging and 
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">Standard 5-folds</a></li>
   </ul> 
 
+Corpus used us <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
+
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
 <!-- Annotations -->
@@ -67,7 +69,7 @@ The annotations tsv has the following columns: </p>
 <p align="center">
     <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram" width="700" height="350" >
 
-<p> See paper for more details: <a href="">link</a> </p> 
+<p> See paper for full details: <a href="">link</a> </p> 
 
 <!-- Entity Links -->
 <h3 id="entity-links">Entity Links</h3>
@@ -79,9 +81,9 @@ GENRE [<a href="https://arxiv.org/abs/2010.00904">De Cao et al., 2020</a>],
 ELQ [<a href="https://arxiv.org/abs/2010.02413">Li et al., 2020</a>]) are provided for all 400 queries from the DL 
 2019/20 test datasets. </p>
 
-<p> Golden entity links linking to Wikipedia can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a>. 
-Also include are annotations: (1) <i>Answer in Link</i>: whether question answer in linked Wikipedia page, and (2) <i>Core 
-Entities in Wiki</i>: whether any core entities within the question were not found in Wikipedia. </p>
+<p> Golden entity links to Wikipedia (2021/02/27) can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a>. 
+Also include are annotations: (1) <i>Answer in Link</i>: whether question is answered within linked Wikipedia page, and (2) <i>Core 
+Entities in Wiki</i>: whether any core entities of the question were not found in Wikipedia. </p>
 
 <p> SOTA entity linkers results can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/entity_linker_results.json">here</a></p>
 
@@ -95,7 +97,7 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 <!-- Baselines -->
 <h3 id="baselines">Baselines</h3>
 
-<p>Baseline runs, used parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
+<p>Baseline runs, tuned parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
 These runs utilities the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
 
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
