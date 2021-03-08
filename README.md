@@ -31,6 +31,10 @@ which are newly and independently assessed. We perform experiments using the off
 and find substantial differences in metrics and the ranking of participating systems. Overall, DL-HARD is a new resource 
 that promotes research on neural ranking methods by focusing on challenging and complex queries. </p>
 
+<p align="center">
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard.png" alt="DL-Hard Diagram" width="700" height="350" >
+
+
 <!-- Dataset -->
 <h3 id="dataset">Dataset</h3>
 <p> DL-Hard provides 49 queries for passage and document retrieval: </p> 
