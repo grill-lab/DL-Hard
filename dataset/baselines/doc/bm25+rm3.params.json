@@ -1,0 +1,37 @@
+{
+    "1": {
+        "b": 0.5,
+        "k1": 2.05,
+        "fb_terms": 75,
+        "fb_docs": 15,
+        "original_query_weight": 0.6
+    },
+    "2": {
+        "b": 0.6,
+        "k1": 2.45,
+        "fb_terms": 5,
+        "fb_docs": 15,
+        "original_query_weight": 0.6
+    },
+    "3": {
+        "b": 0.75,
+        "k1": 2.4,
+        "fb_terms": 5,
+        "fb_docs": 15,
+        "original_query_weight": 0.6
+    },
+    "4": {
+        "b": 0.75,
+        "k1": 2.4,
+        "fb_terms": 55,
+        "fb_docs": 10,
+        "original_query_weight": 0.6
+    },
+    "5": {
+        "b": 0.75,
+        "k1": 2.35,
+        "fb_terms": 5,
+        "fb_docs": 10,
+        "original_query_weight": 0.6
+    }
+}
