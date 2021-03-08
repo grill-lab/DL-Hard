@@ -100,6 +100,8 @@ These runs utilities the <a href="https://github.com/grill-lab/DL-Hard/blob/main
 
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
+*** More baselines coming soon!
+
 <h5> Document Baselines: </h5>
 
 <table class="tg">
