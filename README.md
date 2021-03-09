@@ -11,6 +11,7 @@
   <ol>
     <li><a href="#overview">Overview</a>
     <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#hard-queries">Hard Queries</a></li>
     <li><a href="#annotations">Annotations</a></li>
     <li><a href="#entity-links">Entity Links</a></li>
     <li><a href="#evaluation">Evaluation</a></li>
@@ -50,6 +51,11 @@ that promotes research on neural ranking methods by focusing on challenging and 
 Corpus used us <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
 
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
+
+<!-- Hard Queries -->
+<h3 id="hard-queries">Hard Queries</h3>
+
+
 
 <!-- Annotations -->
 <h3 id="annotations">Annotations</h3>
@@ -157,7 +163,7 @@ Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAe
     <th class="tg-fymr">NDCG@10</th>
     <th class="tg-fymr">RR</th>
     <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Recall@100</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Recall@1000</span></th>
   </tr>
 </thead>
 <tbody>
