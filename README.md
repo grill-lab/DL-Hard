@@ -62,7 +62,7 @@ are required. Hard queries were identified within the DL 2019/20 testsets throug
     the use of annotated metadata only, without requiring knowledge of system effectiveness. Google’s web search answer 
     type as a base with additional List and Reason query intents added to improve recall. Intent types matching 
     Quantity, Weather, and Language (mostly dictionary lookups) are excluded.</li> 
-    <li><i>Manual Hard Criteria</i>: candidate question is manually labeled by multiple authors and candidate hard 
+    <li><i>Manual Hard Criteria</i>: Each candidate question is manually labeled by multiple authors and candidate hard 
     queries discussed by all authors. Guidelines include: non-factoid, beyond single passage, answerable, text-focused, 
     mostly well-formed, and possibly complex. </li> 
 </ol>
