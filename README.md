@@ -55,6 +55,29 @@ Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAe
 <!-- Hard Queries -->
 <h3 id="hard-queries">Hard Queries</h3>
 
+To differentiate system performance between large neural ranking models new challenging and complex benchmark queries 
+are required. Hard queries were identified within the DL 2019/20 testsets through: 
+<ol>
+    <li><i>Automatic Hard Criteria</i>: Because manually reviewing all candidate queries is time consuming, we explore 
+    the use of annotated metadata only, without requiring knowledge of system effectiveness. Google’s web search answer 
+    type as a base with additional List and Reason query intents added to improve recall. Intent types matching 
+    Quantity, Weather, and Language (mostly dictionary lookups) are excluded.</li> 
+    <li><i>Manual Hard Criteria</i>: candidate question is manually labeled by multiple authors and candidate hard 
+    queries discussed by all authors. Guidelines include: non-factoid, beyond single passage, answerable, text-focused, 
+    mostly well-formed, and possibly complex. </li> 
+</ol>
+
+See paper for more details: <a href="">link</a> 
+
+We measure official TREC 2020 document run submissions on DL-HARD overlapping subsets and compare to the original DL 
+Track. On an average relative basis for above-median system, DL-HARD NDCG@10 is 21.1% lower, RR is 23.2% lower, and 
+Recall@100 is 19.6% lower. This included a new top system (‘ICIP_run1’), and each system changed on average 4.6 places. 
+This large number of swaps supports that removing the easier queries allows for a better comparison between 
+state-of-the-art retrieval systems.
+
+<p> TREC 2020 document run submissions (DL-Hard vs. DL TREC):</p>
+<p align="center">
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_dl_comparison.png" alt="Annotation Diagram" width="700" height="350" >
 
 
 <!-- Annotations -->
