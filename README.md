@@ -163,17 +163,17 @@ Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAe
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.285</td>
-    <td class="tg-0pky">0.475</td>
-    <td class="tg-0lax">0.145</td>
-    <td class="tg-0pky">0.430</td>
+    <td class="tg-0pky">0.304</td>
+    <td class="tg-0pky">0.508</td>
+    <td class="tg-0lax">0.174</td>
+    <td class="tg-0pky">0.654</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
     <td class="tg-0pky">0.261</td>
-    <td class="tg-0pky">0.409</td>
-    <td class="tg-0lax">0.146</td>
-    <td class="tg-0pky">0.429</td>
+    <td class="tg-0pky">0.410</td>
+    <td class="tg-0lax">0.158</td>
+    <td class="tg-0pky">0.688</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
