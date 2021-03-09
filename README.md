@@ -72,7 +72,7 @@ For example:
     <li>Easy query from TREC DL 2020: <i>what is reba mcentire's net worth</i>. BM25 achieves Recall@100 = 1.0 
      and neural re-rankers achieve NDCG@10 > 0.9. </li>
     <li>Hard query from DL-Hard: <i>symptoms of different types of brain bleeds</i>. BM25 achieves Recall@100 < 0.7
-     and neural re-rankers achieve NDCG@10 < 0.2.</li>
+     and neural re-rankers achieve NDCG@10 < 0.25.</li>
 </ul>
 
 See paper for more details: <a href="">link</a> 
