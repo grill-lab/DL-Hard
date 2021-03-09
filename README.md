@@ -77,7 +77,7 @@ state-of-the-art retrieval systems.
 
 <p> TREC 2020 document run submissions (DL-Hard vs. DL TREC):</p>
 <p align="center">
-    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_dl_comparison.png" alt="Annotation Diagram" width="400" height="800" >
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_dl_comparison.png" alt="Annotation Diagram" width="500" height="600" >
 
 
 <!-- Annotations -->
