@@ -62,10 +62,18 @@ are required. Hard queries were identified within the DL 2019/20 testsets throug
     the use of annotated metadata only, without requiring knowledge of system effectiveness. Google’s web search answer 
     type as a base with additional List and Reason query intents added to improve recall. Intent types matching 
     Quantity, Weather, and Language (mostly dictionary lookups) are excluded.</li> 
-    <li><i>Manual Hard Criteria</i>: Each candidate question is manually labeled by multiple authors and candidate hard 
-    queries discussed by all authors. Guidelines include: non-factoid, beyond single passage, answerable, text-focused, 
-    mostly well-formed, and possibly complex. </li> 
+    <li><i>Manual Hard Criteria</i>: Each candidate question, generated from Automatic Hard Criteria, is manually 
+    labeled by multiple authors and candidate hard queries discussed by all authors. Guidelines include: non-factoid, 
+    beyond single passage, answerable, text-focused, mostly well-formed, and possibly complex. </li> 
 </ol>
+
+For example:
+<ul>
+    <li>Easy query from TREC DL 2020: <i>what is reba mcentire's net worth</i>. BM25 achieves Recall@100 = 1.0 
+     and neural re-rankers achieve NDCG@10 > 0.9. </li>
+    <li>Hard query from DL-Hard: <i>symptoms of different types of brain bleeds</i>. BM25 achieves Recall@100 < 0.7
+     and neural re-rankers achieve NDCG@10 < 0.2.</li>
+</ul>
 
 See paper for more details: <a href="">link</a> 
 
@@ -111,12 +119,11 @@ ELQ [<a href="https://arxiv.org/abs/2010.02413">Li et al., 2020</a>]) are provid
 2019/20 test datasets. </p>
 
 <p> Golden entity links to Wikipedia (2021/02/27) can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/gold-entity-judgements.json">here</a>. 
-Also include are annotations: (1) <i>Answer in Link</i>: whether question is answered within linked Wikipedia page, and (2) <i>Core 
+Also included are annotations: (1) <i>Answer in Link</i>: whether question is answered within linked Wikipedia page, and (2) <i>Core 
 Entities in Wiki</i>: whether any core entities of the question were not found in Wikipedia. </p>
 
 <p> SOTA entity linkers results can be found: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/entity/entity_linker_results.json">here</a></p>
 
- 
 <!-- Evaluation -->
 <h3 id="evaluation">Evaluation</h3>
 
@@ -127,7 +134,7 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 <h3 id="baselines">Baselines</h3>
 
 <p>Baseline runs, tuned parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
-These runs utilities the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
+These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
 
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
