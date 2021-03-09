@@ -48,7 +48,7 @@ that promotes research on neural ranking methods by focusing on challenging and 
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">Standard 5-folds</a></li>
   </ul> 
 
-Corpus used us <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
+Corpus used is <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
 
 Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
 
