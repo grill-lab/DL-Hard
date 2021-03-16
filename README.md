@@ -92,8 +92,8 @@ state-of-the-art retrieval systems.
 <!-- New Judgements -->
 <h3 id="new-judgements">New Judgements</h3>
 
-The resource uses the full provided NIST assessments for previously the 25 judged queries. There are also new passage and 
-document level judgments provided for the 24 unjudged queries from TREC DL: 
+The resource uses the full provided NIST assessments for the 25 previously judged queries. There are also new passage and 
+document judgments provided for the 24 unjudged queries from TREC DL: 
  <ul>
     <li><i>Passage Judgements</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-passage.passage-level.qrels">link</a> </li>
     <li><i>Document Judgements (Mapping Passage-Level Judgments)</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-doc.passage-level.qrels">link</a> </li>
@@ -106,7 +106,7 @@ Experienced IR researchers perform the annotations following the DL guidelines. 
  For this reason, we re-produced document judgments annotating at a document level, which achieved Krippendorff’s alpha of 0.430. 
 
 On further analysis, most disagreements with a difference greater than 1 relevance grade looked related to different query 
-interpretations. e.g., accepting any definition of "geon" whereas they seem to be looking for a specific one (similar to 
+interpretations. e.g., accepting any definition of "geon" versus looking for a specific definition (similar to 
 "define visceral"). To remove this ambiguity, further work will look to add query descriptions.
 
 Note, the official DL-Hard document qrels (<a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/dl_hard-doc.qrels">link</a>)
