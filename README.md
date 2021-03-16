@@ -12,6 +12,7 @@
     <li><a href="#overview">Overview</a>
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#hard-queries">Hard Queries</a></li>
+    <li><a href="#new-judgements">New Judgements</a></li>
     <li><a href="#annotations">Annotations</a></li>
     <li><a href="#entity-links">Entity Links</a></li>
     <li><a href="#evaluation">Evaluation</a></li>
@@ -88,6 +89,18 @@ state-of-the-art retrieval systems.
     <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_dl_comparison.png" alt="Annotation Diagram" width="500" height="600" >
 
 
+<!-- New Judgements -->
+<h3 id="new-judgements">New Judgements</h3>
+
+The resource uses the full provided NIST assessments for previously judged queries. There are also new passage and 
+document level judgments provided for the 24 unjudged queries from TREC DL.
+
+ <ul>
+    <li><i>Passage Judgements</i>: <a href="http://marksanderson.org/publications/my_papers/CHIIR21b.pdf">link</a> </li>
+    <li><i>Document Judgements (Mapping Passage-Level Judgments)</i>: <a href="http://marksanderson.org/publications/my_papers/CHIIR21b.pdf">link</a> </li>
+    <li><i>Document Judgements (Document-Level Judgments)</i>:  <a href="http://marksanderson.org/publications/my_papers/CHIIR21b.pdf">link</a></li> 
+ </ul>
+
 <!-- Annotations -->
 <h3 id="annotations">Annotations</h3>
 <p> Annotations are provided for 400 queries from the DL 2019/20 test datasets (<a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/query/annotations.tsv">link</a>).
@@ -155,17 +168,17 @@ Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAe
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.262</td>
-    <td class="tg-0pky">0.347</td>
-    <td class="tg-0lax">0.168</td>
-    <td class="tg-0pky">0.817</td>
+    <td class="tg-0pky">0.263</td>
+    <td class="tg-0pky">0.355</td>
+    <td class="tg-0lax">0.165</td>
+    <td class="tg-0pky">0.771</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky">0.310</td>
-    <td class="tg-0pky">0.333</td>
-    <td class="tg-0lax">0.248</td>
-    <td class="tg-0pky">0.778</td>
+    <td class="tg-0pky">0.270</td>
+    <td class="tg-0pky">0.337</td>
+    <td class="tg-0lax">0.164</td>
+    <td class="tg-0pky">0.797</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
