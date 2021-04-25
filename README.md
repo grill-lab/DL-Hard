@@ -21,7 +21,8 @@
 
 Paper overview: <a href="">link</a> 
 
-Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
+Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> \
+Colab demo (Pyterrier): *** coming soon!
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
