@@ -18,10 +18,11 @@
     <li><a href="#entity-links">Entity Links</a></li>
     <li><a href="#evaluation">Evaluation</a></li>
     <li><a href="#baselines">Baselines</a></li>
+    <li><a href="#future-work">Future Work</a></li>
   </ol>
 
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
-Colab demo (PyTerrier): ***coming soon
+Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
@@ -68,7 +69,7 @@ Correct citation:
 Corpus used is <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
 
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
-Colab demo (PyTerrier): ***coming soon!
+Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
 <!-- Hard Queries -->
 <h3 id="hard-queries">Hard Queries</h3>
@@ -179,7 +180,7 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
 
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
-Colab demo (PyTerrier): ***coming soon!
+Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
 *** More baselines coming soon!
 
