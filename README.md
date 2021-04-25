@@ -10,6 +10,7 @@
   <h5>Table of Contents</h5>
   <ol>
     <li><a href="#overview">Overview</a>
+    <li><a href="#paper">Paper</a>
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#hard-queries">Hard Queries</a></li>
     <li><a href="#new-judgements">New Judgements</a></li>
@@ -19,10 +20,8 @@
     <li><a href="#baselines">Baselines</a></li>
   </ol>
 
-Paper overview: <a href="">link</a> 
-
-Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> \
-Colab demo (Pyterrier): *** coming soon!
+Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
+Colab demo (PyTerrier): ***coming soon
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
@@ -39,10 +38,26 @@ that promotes research on neural ranking methods by focusing on challenging and 
 <p align="center">
     <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard.png" alt="DL-Hard Diagram" width="700" height="400" >
 
+<!-- Paper -->
+<h3 id="paper">Paper</h3>
+
+This work is published as a resource paper in SIGIR 2021.
+
+Preprint available:  ***preprint coming soon!
+  
+Correct citation: 
+
+@inproceedings{mackie2021dlhard,\
+ title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},\
+ author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},\
+ booktitle={arXiv preprint arXiv: XXX},\
+ year={2021}\
+}
+
 
 <!-- Dataset -->
 <h3 id="dataset">Dataset</h3>
-<p> DL-Hard provides 49 queries for passage and document retrieval: </p> 
+<p> DL-Hard provides 50 queries for passage and document retrieval: </p> 
   <ul>
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/topics.tsv">Topics</a> (MS Marco format, i.e. Topic id, Query) 
     <li><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/dl_hard-passage.qrels">Passage qrels</a></li>
@@ -52,7 +67,8 @@ that promotes research on neural ranking methods by focusing on challenging and 
 
 Corpus used is <a href="https://microsoft.github.io/msmarco/">MS Marco Passage and Document Corpus</a>.
 
-Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
+Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
+Colab demo (PyTerrier): ***coming soon!
 
 <!-- Hard Queries -->
 <h3 id="hard-queries">Hard Queries</h3>
@@ -77,7 +93,7 @@ For example:
      and neural re-rankers achieve NDCG@10 < 0.25.</li>
 </ul>
 
-See paper for more details: <a href="">link</a> 
+See paper for more details: ***preprint coming soon! 
 
 We measure official TREC 2020 document run submissions on DL-HARD overlapping subsets and compare to the original DL 
 Track. On an average relative basis for above-median system, DL-HARD NDCG@10 is 21.1% lower, RR is 23.2% lower, and 
@@ -94,7 +110,7 @@ state-of-the-art retrieval systems.
 <h3 id="new-judgements">New Judgements</h3>
 
 The resource uses the full provided NIST assessments for the 25 previously judged queries. There are also new passage and 
-document judgments provided for the 24 unjudged queries from TREC DL: 
+document judgments provided for the 25 unjudged queries from TREC DL: 
  <ul>
     <li><i>Passage Judgements</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-passage.passage-level.qrels">link</a> </li>
     <li><i>Document Judgements (Mapping Passage-Level Judgments)</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-doc.passage-level.qrels">link</a> </li>
@@ -132,7 +148,7 @@ The annotations tsv has the following columns: </p>
 <p align="center">
     <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/annotation_flow.png" alt="Annotation Diagram" width="700" height="350" >
 
-<p> See paper for full details: <a href="">link</a> </p> 
+<p> See paper for full details: ***preprint coming soon!
 
 <!-- Entity Links -->
 <h3 id="entity-links">Entity Links</h3>
@@ -162,7 +178,8 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 <p>Baseline runs, tuned parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
 These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
 
-Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a> 
+Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
+Colab demo (PyTerrier): ***coming soon!
 
 *** More baselines coming soon!
 
@@ -225,17 +242,17 @@ Colab demo: <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAe
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.304</td>
-    <td class="tg-0pky">0.508</td>
+    <td class="tg-0pky">0.303</td>
+    <td class="tg-0pky">0.518</td>
     <td class="tg-0lax">0.174</td>
-    <td class="tg-0pky">0.654</td>
+    <td class="tg-0pky">0.655</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky">0.261</td>
-    <td class="tg-0pky">0.410</td>
-    <td class="tg-0lax">0.158</td>
-    <td class="tg-0pky">0.688</td>
+    <td class="tg-0pky">0.273</td>
+    <td class="tg-0pky">0.421</td>
+    <td class="tg-0lax">0.177</td>
+    <td class="tg-0pky">0.691</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
