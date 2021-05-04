@@ -51,7 +51,7 @@ Correct citation:
 @inproceedings{mackie2021dlhard,\
  title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},\
  author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},\
- booktitle={arXiv preprint arXiv: XXX},\
+ booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
  year={2021}\
 }
 
