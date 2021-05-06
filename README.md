@@ -265,3 +265,14 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 </tbody>
 </table>
 
+<!-- Future Work -->
+<h3 id="future-work">Future Work </h3>
+
+Please suggest any future extensions or bug fixes on github or email (i.mackie.1@research.gla.ac.uk). 
+
+Current planned work:
+ <ul>
+    <li> Add TREC-style 'descriptions' to queries to disambiguate answers.</li>
+    <li> Add BERT, PARADE, T5, and ColBERT baselines. </li>
+    <li> Create MS Marco duplicate passage list. </li>
+ </ul>
