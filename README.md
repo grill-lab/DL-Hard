@@ -199,17 +199,17 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.263</td>
-    <td class="tg-0pky">0.355</td>
-    <td class="tg-0lax">0.165</td>
-    <td class="tg-0pky">0.771</td>
+    <td class="tg-0pky">0.272</td>
+    <td class="tg-0pky">0.368</td>
+    <td class="tg-0lax">0.174</td>
+    <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
-    <td class="tg-0pky">0.270</td>
-    <td class="tg-0pky">0.337</td>
-    <td class="tg-0lax">0.164</td>
-    <td class="tg-0pky">0.797</td>
+    <td class="tg-0pky">0.279</td>
+    <td class="tg-0pky">0.365</td>
+    <td class="tg-0lax">0.174</td>
+    <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
