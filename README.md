@@ -44,7 +44,7 @@ that promotes research on neural ranking methods by focusing on challenging and 
 
 This work is published as a resource paper in SIGIR 2021.
 
-Preprint available:  ***preprint coming soon!
+Preprint available:  <a href="https://arxiv.org/abs/2105.07975">link</a>
   
 Correct citation: 
 
@@ -94,7 +94,7 @@ For example:
      and neural re-rankers achieve NDCG@10 < 0.25.</li>
 </ul>
 
-See paper for more details: ***preprint coming soon! 
+See paper for more details: <a href="https://arxiv.org/abs/2105.07975">link</a>
 
 We measure official TREC 2020 document run submissions on DL-HARD overlapping subsets and compare to the original DL 
 Track. On an average relative basis for above-median system, DL-HARD NDCG@10 is 21.1% lower, RR is 23.2% lower, and 
