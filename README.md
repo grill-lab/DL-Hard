@@ -44,7 +44,7 @@ that promotes research on neural ranking methods by focusing on challenging and 
 
 This work is published as a resource paper in SIGIR 2021.
 
-Preprint available:  <a href="https://arxiv.org/abs/2105.07975">link</a>
+Preprint available:  ***preprint coming soon!
   
 Correct citation: 
 
@@ -94,7 +94,7 @@ For example:
      and neural re-rankers achieve NDCG@10 < 0.25.</li>
 </ul>
 
-See paper for more details: <a href="https://arxiv.org/abs/2105.07975">link</a>
+See paper for more details: ***preprint coming soon! 
 
 We measure official TREC 2020 document run submissions on DL-HARD overlapping subsets and compare to the original DL 
 Track. On an average relative basis for above-median system, DL-HARD NDCG@10 is 21.1% lower, RR is 23.2% lower, and 
@@ -243,17 +243,17 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 <tbody>
   <tr>
     <td class="tg-0pky">BM25</td>
-    <td class="tg-0pky">0.303</td>
-    <td class="tg-0pky">0.518</td>
-    <td class="tg-0lax">0.174</td>
-    <td class="tg-0pky">0.655</td>
+    <td class="tg-0pky">0.304</td>
+    <td class="tg-0pky">0.504</td>
+    <td class="tg-0lax">0.173</td>
+    <td class="tg-0pky">0.669</td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
     <td class="tg-0pky">0.273</td>
-    <td class="tg-0pky">0.421</td>
-    <td class="tg-0lax">0.177</td>
-    <td class="tg-0pky">0.691</td>
+    <td class="tg-0pky">0.409</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0pky">0.703</td>
   </tr>
   <tr>
     <td class="tg-0pky">BERT</td>
