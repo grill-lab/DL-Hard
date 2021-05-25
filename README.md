@@ -102,7 +102,7 @@ Recall@100 is 19.6% lower. This included a new top system (‘ICIP_run1’), and
 This large number of swaps supports that removing the easier queries allows for a better comparison between 
 state-of-the-art retrieval systems.
 
-<p> TREC 2020 document run submissions (DL-Hard vs. DL TREC):</p>
+<p> Top 20 systems TREC 2020 document run submissions (DL-Hard vs. DL TREC):</p>
 <p align="center">
     <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_vs_dl_hard.png" alt="Annotation Diagram" width="600" height="475" >
 
