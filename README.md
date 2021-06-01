@@ -38,7 +38,7 @@ and find substantial differences in metrics and the ranking of participating sys
 that promotes research on neural ranking methods by focusing on challenging and complex queries. </p>
 
 <p align="center">
-    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard.png" alt="DL-Hard Diagram" width="700" height="400" >
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_v2.png" alt="DL-Hard Diagram" width="700" height="400" >
 
 <!-- Paper -->
 <h3 id="paper">Paper</h3>
