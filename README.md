@@ -12,6 +12,7 @@
     <li><a href="#overview">Overview</a>
     <li><a href="#paper">Paper</a>
     <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#change-log">Change Log</a></li>
     <li><a href="#hard-queries">Hard Queries</a></li>
     <li><a href="#new-judgements">New Judgements</a></li>
     <li><a href="#annotations">Annotations</a></li>
@@ -71,13 +72,16 @@ Corpus used is <a href="https://microsoft.github.io/msmarco/">MS Marco Passage a
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
 Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
-Log of major dataset changes:
+
+<!-- Change Log -->
+<h3 id="change-log">Change Log</h3>
+
+Major dataset changes historic users should be aware:
 <ul>
     <li> 4th May 2021: Topic 273695 added for passage and documents (qrels, baselines, topics.tsv, folds, etc.) We wanted a round 50 topics testset vs. original 49. 
     <li> 20th May 2021: Topics 1056416 and 1103153 added to passage qrels (see <a href="https://github.com/grill-lab/DL-Hard/issues/1">issue #1</a>)  
-  </ul> 
+</ul> 
 
-*Note, 
 
 <!-- Hard Queries -->
 <h3 id="hard-queries">Hard Queries</h3>
