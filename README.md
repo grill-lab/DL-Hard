@@ -71,6 +71,14 @@ Corpus used is <a href="https://microsoft.github.io/msmarco/">MS Marco Passage a
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
 Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
+Log of major dataset changes:
+<ul>
+    <li> 4th May 2021: Topic 273695 added for passage and documents (qrels, baselines, topics.tsv, folds, etc.) We wanted a round 50 topics testset vs. original 49. 
+    <li> 20th May 2021: Topics 1056416 and 1103153 added to passage qrels (see <a href="https://github.com/grill-lab/DL-Hard/issues/1">issue #1</a>)  
+  </ul> 
+
+*Note, 
+
 <!-- Hard Queries -->
 <h3 id="hard-queries">Hard Queries</h3>
 
