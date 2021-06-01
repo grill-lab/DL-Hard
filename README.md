@@ -78,8 +78,8 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 
 Major dataset changes historic users should be aware:
 <ul>
-    <li> 4th May 2021: Topic 273695 added for passage and documents (qrels, baselines, topics.tsv, folds, etc.) We wanted a round 50 topics testset vs. original 49. 
-    <li> 20th May 2021: Topics 1056416 and 1103153 added to passage qrels (see <a href="https://github.com/grill-lab/DL-Hard/issues/1">issue #1</a>)  
+    <li> <b>4th May 2021</b>: Topic 273695 added for passage and documents (qrels, baselines, topics.tsv, folds, etc.) We wanted a round 50 topics testset vs. original 49. 
+    <li> <b>20th May 2021</b>: Topics 1056416 and 1103153 added to passage qrels (see <a href="https://github.com/grill-lab/DL-Hard/issues/1">issue #1</a>)  
 </ul> 
 
 
