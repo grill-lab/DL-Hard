@@ -227,7 +227,7 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+BERT</td>
+    <td class="tg-0pky">BM25+BERT(MaxP)</td>
     <td class="tg-0pky">0.310</td>
     <td class="tg-0pky">0.405</td>
     <td class="tg-0lax">0.187</td>
@@ -235,21 +235,21 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
   </tr>
   <tr>
     <tr>
-    <td class="tg-0pky">BM25+RM3+BERT</td>
+    <td class="tg-0pky">BM25+RM3+BERT(MaxP)</td>
     <td class="tg-0pky">0.314</td>
     <td class="tg-0pky">0.415</td>
     <td class="tg-0lax">0.188</td>
     <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+T5</td>
+    <td class="tg-0pky">BM25+T5(MaxP)</td>
     <td class="tg-0pky">0.327</td>
     <td class="tg-0pky">0.367</td>
     <td class="tg-0lax">0.184</td>
     <td class="tg-0pky">0.775</td>
   </tr>
     <tr>
-    <td class="tg-0pky">BM25+RM3+T5</td>
+    <td class="tg-0pky">BM25+RM3+T5(MaxP)</td>
     <td class="tg-0pky">0.307</td>
     <td class="tg-0pky">0.359</td>
     <td class="tg-0lax">0.170</td>
@@ -315,6 +315,11 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
   </tr>
 </tbody>
 </table>
+
+BERT and T5 re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> models pre-trained on MS-MARCO.
+For BERT and T5 document ranking, the documents are sharded into 5 sentence chunks with no overlap and the max passage 
+score is taken to represent the document (similar setup to <a href="https://arxiv.org/pdf/2003.06713.pdf">this paper</a>) .
+
 
 <!-- Future Work -->
 <h3 id="future-work">Future Work </h3>
