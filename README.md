@@ -38,7 +38,12 @@ and find substantial differences in metrics and the ranking of participating sys
 that promotes research on neural ranking methods by focusing on challenging and complex queries. </p>
 
 <p align="center">
-    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_hard_v2.png" alt="DL-Hard Diagram" width="700" height="400" >
+    <img src="https://github.com/grill-lab/DL-Hard/blob/main/assets/dl_overview_4.png" alt="DL-Hard Diagram" width="700" height="400" >
+
+Note, NIST judged/unjudged DL query counts in the diagram are approximated for simplicity (see track <a href="https://arxiv.org/abs/2105.07975">overview paper</a> for specifics). 
+Due to the differences in TREC DL task querysets, DL-HARD provides 25 new document judgments and 27 new passage judgments. 
+Both DL-HARD tasks have 50 queries overall.
+
 
 <!-- Paper -->
 <h3 id="paper">Paper</h3>
@@ -194,8 +199,6 @@ These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/d
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
 Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
-*** More baselines coming soon!
-
 <h5> Document Baselines: </h5>
 
 <table class="tg">
@@ -224,18 +227,33 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
-    <td class="tg-0pky">BERT</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">BM25+BERT</td>
+    <td class="tg-0pky">0.310</td>
+    <td class="tg-0pky">0.405</td>
+    <td class="tg-0lax">0.187</td>
+    <td class="tg-0pky">0.775</td>
   </tr>
   <tr>
-    <td class="tg-0pky">PARADE</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0pky"></td>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+BERT</td>
+    <td class="tg-0pky">0.314</td>
+    <td class="tg-0pky">0.415</td>
+    <td class="tg-0lax">0.188</td>
+    <td class="tg-0pky">0.775</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+T5</td>
+    <td class="tg-0pky">0.327</td>
+    <td class="tg-0pky">0.367</td>
+    <td class="tg-0lax">0.184</td>
+    <td class="tg-0pky">0.775</td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+T5</td>
+    <td class="tg-0pky">0.307</td>
+    <td class="tg-0pky">0.359</td>
+    <td class="tg-0lax">0.170</td>
+    <td class="tg-0pky">0.775</td>
   </tr>
 </tbody>
 </table>
@@ -267,12 +285,33 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <td class="tg-0lax">0.175</td>
     <td class="tg-0pky">0.703</td>
   </tr>
+   <tr>
+    <td class="tg-0pky">BM25+BERT</td>
+    <td class="tg-0pky">0.399</td>
+    <td class="tg-0pky">0.558</td>
+    <td class="tg-0lax">0.229</td>
+    <td class="tg-0pky">0.669</td>
+  </tr>
   <tr>
-    <td class="tg-0pky">BERT</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">BM25+RM3+BERT</td>
+    <td class="tg-0pky">0.395</td>
+    <td class="tg-0pky">0.559</td>
+    <td class="tg-0lax">0.234</td>
+    <td class="tg-0pky">0.703</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+T5</td>
+    <td class="tg-0pky">0.408</td>
+    <td class="tg-0pky">0.591</td>
+    <td class="tg-0lax">0.238</td>
+    <td class="tg-0pky">0.669</td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+T5</td>
+    <td class="tg-0pky">0.396</td>
+    <td class="tg-0pky">0.577</td>
+    <td class="tg-0lax">0.238</td>
+    <td class="tg-0pky">0.703</td>
   </tr>
 </tbody>
 </table>
