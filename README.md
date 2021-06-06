@@ -194,12 +194,27 @@ relevant. Thus, trec_eval command: <i>"trec_eval -l 2 -o -c -M1000 -q -m all_tre
 <h3 id="baselines">Baselines</h3>
 
 <p>Baseline runs, tuned parameters and trec_evals can be found in the baselines directory: <a href="https://github.com/grill-lab/DL-Hard/tree/main/dataset/baselines/">link</a>. 
-These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> for cross-validation and the outlined trec_eval procedure.</p>
+These runs utilize the <a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/folds.json">standard 5-folds</a> 
+for cross-validation (3x train folds, 1x validation fold, 1x test fold) and the outlined trec_eval procedure.</p>
 
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
 Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
 <h5> Document Baselines: </h5>
+
+Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
+
+<i>BERT-MaxP(Zero-Shot)</i> and <i>T5-MaxP(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
+models fine-tuned on MS-MARCO (but not fine-tuned on DL-HARD folds). The documents are sharded into 5 sentence chunks with 
+no overlap and the max passage score is taken to represent the document (<a href="https://arxiv.org/pdf/2003.06713.pdf">Nogueira et al., 2020</a>) .
+
+<i>BERT-MaxP</i> and <i>Electra-MaxP</i> is firstly fine-tuned on MS Marco, before further fine-tuning on the provided 
+DL-HARD training folds. Performance on the validation fold is used to select the optimal epoch for the each corresponding 
+test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (2019)</a> for implementation details.
+
+<i>PARADE-BERT</i> and <i>PARADE-Electra</i> are trained in a similar procedure for DL-HARD. See 
+<a href="https://arxiv.org/pdf/2008.09093.pdf">Li at al. (2020)</a> for implementation details.
+
 
 <table class="tg">
 <thead>
@@ -207,8 +222,9 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <th class="tg-fymr">System</th>
     <th class="tg-fymr">NDCG@10</th>
     <th class="tg-fymr">RR</th>
-    <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Recall@1000</span></th>
+    <th class="tg-fymr">MAP</th>
+    <th class="tg-fymr">Recall@1000</th>
+    <th class="tg-fymr">Run</th>
   </tr>
 </thead>
 <tbody>
@@ -216,58 +232,135 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <td class="tg-0pky">BM25</td>
     <td class="tg-0pky">0.272</td>
     <td class="tg-0pky">0.368</td>
-    <td class="tg-0lax">0.174</td>
+    <td class="tg-0pky">0.174</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
     <td class="tg-0pky">0.279</td>
     <td class="tg-0pky">0.365</td>
-    <td class="tg-0lax">0.174</td>
+    <td class="tg-0pky">0.174</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+BERT(MaxP)</td>
+    <td class="tg-0pky">BM25+BERT-MaxP(Zero-Shot)</td>
     <td class="tg-0pky">0.310</td>
     <td class="tg-0pky">0.405</td>
-    <td class="tg-0lax">0.187</td>
+    <td class="tg-0pky">0.187</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+BERT-MaxP</td>
+    <td class="tg-0pky">0.317</td>
+    <td class="tg-0pky">0.402</td>
+    <td class="tg-0pky">0.200</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
     <tr>
-    <td class="tg-0pky">BM25+RM3+BERT(MaxP)</td>
+    <td class="tg-0pky">BM25+RM3+BERT-MaxP(Zero-Shot)</td>
     <td class="tg-0pky">0.314</td>
     <td class="tg-0pky">0.415</td>
-    <td class="tg-0lax">0.188</td>
+    <td class="tg-0pky">0.188</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+T5(MaxP)</td>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+BERT-MaxP</td>
+    <td class="tg-0pky">0.295</td>
+    <td class="tg-0pky">0.443</td>
+    <td class="tg-0pky">0.181</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+T5-MaxP(Zero-Shot)</td>
     <td class="tg-0pky">0.327</td>
     <td class="tg-0pky">0.367</td>
-    <td class="tg-0lax">0.184</td>
+    <td class="tg-0pky">0.184</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
     <tr>
-    <td class="tg-0pky">BM25+RM3+T5(MaxP)</td>
+    <td class="tg-0pky">BM25+RM3+T5-MaxP(Zero-Shot)</td>
     <td class="tg-0pky">0.307</td>
     <td class="tg-0pky">0.359</td>
-    <td class="tg-0lax">0.170</td>
+    <td class="tg-0pky">0.170</td>
     <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+Electra-MaxP</td>
+    <td class="tg-0pky"><b>0.385</b></td>
+    <td class="tg-0pky">0.448</td>
+    <td class="tg-0pky"><b>0.216</b></td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+Electra-MaxP</td>
+    <td class="tg-0pky">0.380</td>
+    <td class="tg-0pky">0.461</td>
+    <td class="tg-0pky">0.215</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+PARADE-BERT</td>
+    <td class="tg-0pky">0.299</td>
+    <td class="tg-0pky">0.413</td>
+    <td class="tg-0pky">0.174</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+PARADE-BERT</td>
+    <td class="tg-0pky">0.313</td>
+    <td class="tg-0pky">0.419</td>
+    <td class="tg-0pky">0.187</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">BM25+PARADE-Electra</td>
+    <td class="tg-0pky">0.356</td>
+    <td class="tg-0pky"><b>0.498</b></td>
+    <td class="tg-0pky">0.207</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">BM25+RM3+PARADE-Electra</td>
+    <td class="tg-0pky">0.357</td>
+    <td class="tg-0pky">0.489</td>
+    <td class="tg-0pky">0.211</td>
+    <td class="tg-0pky">0.775</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
 </tbody>
 </table>
 
 <h5> Passage Baselines: </h5>
 
+Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
+
+<i>BERT(Zero-Shot)</i> and <i>T5(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
+models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
+
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-fymr">System</th>
-    <th class="tg-fymr">NDCG@10</th>
-    <th class="tg-fymr">RR</th>
-    <th class="tg-0lax"><span style="font-weight:bold">MAP</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Recall@1000</span></th>
+    <th class="tg-0pky">System</th>
+    <th class="tg-0pky">NDCG@10</th>
+    <th class="tg-0pky">RR</th>
+    <th class="tg-0pky">MAP</th>
+    <th class="tg-0pky">Recall@1000</th>
+    <th class="tg-0pky">Run</th>
   </tr>
 </thead>
 <tbody>
@@ -275,51 +368,52 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
     <td class="tg-0pky">BM25</td>
     <td class="tg-0pky">0.304</td>
     <td class="tg-0pky">0.504</td>
-    <td class="tg-0lax">0.173</td>
+    <td class="tg-0pky">0.173</td>
     <td class="tg-0pky">0.669</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
     <td class="tg-0pky">0.273</td>
     <td class="tg-0pky">0.409</td>
-    <td class="tg-0lax">0.175</td>
+    <td class="tg-0pky">0.175</td>
     <td class="tg-0pky">0.703</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
    <tr>
-    <td class="tg-0pky">BM25+BERT</td>
+    <td class="tg-0pky">BM25+BERT(Zero-Shot)</td>
     <td class="tg-0pky">0.399</td>
     <td class="tg-0pky">0.558</td>
-    <td class="tg-0lax">0.229</td>
+    <td class="tg-0pky">0.229</td>
     <td class="tg-0pky">0.669</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+RM3+BERT</td>
+    <td class="tg-0pky">BM25+RM3+BERT(Zero-Shot)</td>
     <td class="tg-0pky">0.395</td>
     <td class="tg-0pky">0.559</td>
-    <td class="tg-0lax">0.234</td>
+    <td class="tg-0pky">0.234</td>
     <td class="tg-0pky">0.703</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
   <tr>
-    <td class="tg-0pky">BM25+T5</td>
-    <td class="tg-0pky">0.408</td>
-    <td class="tg-0pky">0.591</td>
-    <td class="tg-0lax">0.238</td>
+    <td class="tg-0pky">BM25+T5(Zero-Shot)</td>
+    <td class="tg-0pky"><b>0.408</b></td>
+    <td class="tg-0pky"><b>0.591</b></td>
+    <td class="tg-0pky"><b>0.238</b></td>
     <td class="tg-0pky">0.669</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
     <tr>
-    <td class="tg-0pky">BM25+RM3+T5</td>
+    <td class="tg-0pky">BM25+RM3+T5(Zero-Shot)</td>
     <td class="tg-0pky">0.396</td>
     <td class="tg-0pky">0.577</td>
-    <td class="tg-0lax">0.238</td>
+    <td class="tg-0pky"><b>0.238</b></td>
     <td class="tg-0pky">0.703</td>
+    <td class="tg-0pky"><a href="">link</a> </td>
   </tr>
 </tbody>
 </table>
-
-BERT and T5 re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> models pre-trained on MS-MARCO.
-For BERT and T5 document ranking, the documents are sharded into 5 sentence chunks with no overlap and the max passage 
-score is taken to represent the document (similar setup to <a href="https://arxiv.org/pdf/2003.06713.pdf">this paper</a>) .
-
 
 <!-- Future Work -->
 <h3 id="future-work">Future Work </h3>
