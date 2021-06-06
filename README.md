@@ -424,6 +424,7 @@ Please suggest any future extensions or bug fixes on github or email (i.mackie.1
 Current planned work:
  <ul>
     <li> Add TREC-style 'descriptions' to queries to disambiguate answers.</li>
-    <li> Add BERT, PARADE, T5, and ColBERT baselines. </li>
+    <li> Dense retrieval baselines (ColBERT, DPR, etc.). </li>
     <li> Create MS Marco duplicate passage list. </li>
+    <li> Add a complementary entity ranking task. </li>
  </ul>
