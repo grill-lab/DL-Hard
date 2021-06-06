@@ -130,9 +130,9 @@ state-of-the-art retrieval systems.
 The resource uses the full provided NIST assessments for the 25 previously judged queries. There are also new passage and 
 document judgments provided for the 25 unjudged queries from TREC DL: 
  <ul>
-    <li><i>Passage Judgements</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-passage.passage-level.qrels">link</a> </li>
-    <li><i>Document Judgements (Mapping Passage-Level Judgments)</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-doc.passage-level.qrels">link</a> </li>
-    <li><i>Document Judgements (Document-Level Judgments)</i>:  <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgments-doc.doc-level.qrels">link</a></li> 
+    <li><i>Passage Judgements</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgements-passage.passage-level.qrels">link</a> </li>
+    <li><i>Document Judgements (Mapping Passage-Level Judgments)</i>: <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgements-doc.passage-level.qrels">link</a> </li>
+    <li><i>Document Judgements (Document-Level Judgments)</i>:  <a href="https://github.com/grill-lab/DL-Hard/blob/main/annotations/new_judgements/new_judgements-doc.doc-level.qrels">link</a></li> 
  </ul>
  
 Experienced IR researchers perform the annotations following the DL guidelines. We find the Krippendorff’s alpha is 0.47 
@@ -205,13 +205,12 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
 
 <i>BERT-MaxP(Zero-Shot)</i> and <i>T5-MaxP(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
-models fine-tuned on MS-MARCO (but not fine-tuned on DL-HARD folds). The documents are sharded into 5 sentence chunks with 
+standard models that are fine-tuned on MS-MARCO (but not fine-tuned on DL-HARD folds). The documents are sharded into 5 sentence chunks with 
 no overlap and the max passage score is taken to represent the document (<a href="https://arxiv.org/pdf/2003.06713.pdf">Nogueira et al., 2020</a>) .
 
 <i>BERT-MaxP</i> and <i>Electra-MaxP</i> is firstly fine-tuned on MS Marco, before further fine-tuning on the provided 
 DL-HARD training folds. Performance on the validation fold is used to select the optimal epoch for the each corresponding 
 test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (2019)</a> for implementation details.
-
 <i>PARADE-BERT</i> and <i>PARADE-Electra</i> are trained in a similar procedure for DL-HARD. See 
 <a href="https://arxiv.org/pdf/2008.09093.pdf">Li at al. (2020)</a> for implementation details.
 
@@ -234,7 +233,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.368</td>
     <td class="tg-0pky">0.174</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
@@ -242,7 +241,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.365</td>
     <td class="tg-0pky">0.174</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+BERT-MaxP(Zero-Shot)</td>
@@ -250,7 +249,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.405</td>
     <td class="tg-0pky">0.187</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Bbert-mp(zs).run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+BERT-MaxP</td>
@@ -258,7 +257,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.402</td>
     <td class="tg-0pky">0.200</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Bbert-mp.run">link</a></td>
   </tr>
   <tr>
     <tr>
@@ -267,7 +266,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.415</td>
     <td class="tg-0pky">0.188</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Bbert-mp(zs).run">link</a></td>
   </tr>
   <tr>
     <tr>
@@ -276,7 +275,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.443</td>
     <td class="tg-0pky">0.181</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Bbert-mp.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+T5-MaxP(Zero-Shot)</td>
@@ -284,7 +283,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.367</td>
     <td class="tg-0pky">0.184</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="/Users/iain/LocalStorage/coding/github/DL-Hard/dataset/baselines/doc/bm25+t5-mp(zs).run">link</a></td>
   </tr>
     <tr>
     <td class="tg-0pky">BM25+RM3+T5-MaxP(Zero-Shot)</td>
@@ -292,7 +291,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.359</td>
     <td class="tg-0pky">0.170</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Bt5-mp(zs).run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+Electra-MaxP</td>
@@ -300,7 +299,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.448</td>
     <td class="tg-0pky"><b>0.216</b></td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Belectra-mp.run">link</a></td>
   </tr>
     <tr>
     <td class="tg-0pky">BM25+RM3+Electra-MaxP</td>
@@ -308,7 +307,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.461</td>
     <td class="tg-0pky">0.215</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Belectra-mp.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+PARADE-BERT</td>
@@ -316,7 +315,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.413</td>
     <td class="tg-0pky">0.174</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Bparade-bert.run">link</a></td>
   </tr>
     <tr>
     <td class="tg-0pky">BM25+RM3+PARADE-BERT</td>
@@ -324,7 +323,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.419</td>
     <td class="tg-0pky">0.187</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Bparade-bert.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+PARADE-Electra</td>
@@ -332,7 +331,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky"><b>0.498</b></td>
     <td class="tg-0pky">0.207</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Bparade-electra.run">link</a></td>
   </tr>
     <tr>
     <td class="tg-0pky">BM25+RM3+PARADE-Electra</td>
@@ -340,7 +339,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
     <td class="tg-0pky">0.489</td>
     <td class="tg-0pky">0.211</td>
     <td class="tg-0pky">0.775</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/doc/bm25%2Brm3%2Bparade-electra.run.eval">link</a></td>
   </tr>
 </tbody>
 </table>
@@ -350,7 +349,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
 Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
 
 <i>BERT(Zero-Shot)</i> and <i>T5(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
-models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
+standard models that are fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
 
 <table class="tg">
 <thead>
@@ -370,7 +369,7 @@ models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
     <td class="tg-0pky">0.504</td>
     <td class="tg-0pky">0.173</td>
     <td class="tg-0pky">0.669</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/passage/bm25.run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3</td>
@@ -378,7 +377,7 @@ models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
     <td class="tg-0pky">0.409</td>
     <td class="tg-0pky">0.175</td>
     <td class="tg-0pky">0.703</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/passage/bm25%2Brm3.run">link</a></td>
   </tr>
    <tr>
     <td class="tg-0pky">BM25+BERT(Zero-Shot)</td>
@@ -386,7 +385,7 @@ models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
     <td class="tg-0pky">0.558</td>
     <td class="tg-0pky">0.229</td>
     <td class="tg-0pky">0.669</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/passage/bm25%2Bbert(zs).run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+RM3+BERT(Zero-Shot)</td>
@@ -394,7 +393,7 @@ models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
     <td class="tg-0pky">0.559</td>
     <td class="tg-0pky">0.234</td>
     <td class="tg-0pky">0.703</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/passage/bm25%2Brm3%2Bbert(zs).run">link</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">BM25+T5(Zero-Shot)</td>
@@ -402,7 +401,7 @@ models fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
     <td class="tg-0pky"><b>0.591</b></td>
     <td class="tg-0pky"><b>0.238</b></td>
     <td class="tg-0pky">0.669</td>
-    <td class="tg-0pky"><a href="">link</a> </td>
+    <td class="tg-0pky"><a href="https://github.com/grill-lab/DL-Hard/blob/main/dataset/baselines/passage/bm25%2Brm3%2Bt5(zs).run">link</a></td>
   </tr>
     <tr>
     <td class="tg-0pky">BM25+RM3+T5(Zero-Shot)</td>
