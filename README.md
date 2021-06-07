@@ -207,7 +207,7 @@ Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4y
 Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
 
 <i>BERT-MaxP(Zero-Shot)</i> and <i>T5-MaxP(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
-standard models that are fine-tuned on MS-MARCO (but not fine-tuned on DL-HARD folds). The documents are sharded into 5 sentence chunks with 
+standard models (i.e. BERT-large and T5-base) that are fine-tuned on MS-MARCO (but not fine-tuned on DL-HARD folds). The documents are sharded into 5 sentence chunks with 
 no overlap and the max passage score is taken to represent the document (<a href="https://arxiv.org/pdf/2003.06713.pdf">Nogueira et al., 2020</a>) .
 
 <i>BERT-MaxP</i> and <i>Electra-MaxP</i> is firstly fine-tuned on MS Marco, before further fine-tuning on the provided 
@@ -351,7 +351,7 @@ test fold. See <a href="https://arxiv.org/pdf/1905.09217.pdf">Dai and Callan (20
 Initial retrieval <i>BM25</i> and <i>BM25+RM3</i> runs use <a href="https://github.com/castorini/pyserini">Pyserini</a>. 
 
 <i>BERT(Zero-Shot)</i> and <i>T5(Zero-Shot)</i> re-rankers use <a href="https://github.com/castorini/pygaggle">pygaggle</a> 
-standard models that are fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
+standard models (i.e. BERT-large and T5-base) that are fine-tuned on MS-MARCO (not further fine-tuned on DL-HARD folds).
 
 <table class="tg">
 <thead>
