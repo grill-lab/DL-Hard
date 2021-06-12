@@ -423,6 +423,7 @@ Please suggest any future extensions or bug fixes on github or email (i.mackie.1
 
 Current planned work:
  <ul>
+    <li> Non-NIST judged queries only judge top 10 docs from the QnA dataset (i.e. judgments sparse). Thus, creating deeper judgments.</li>
     <li> Add TREC-style 'descriptions' to queries to disambiguate answers.</li>
     <li> Dense retrieval baselines (ColBERT, DPR, etc.). </li>
     <li> Create MS Marco duplicate passage list. </li>
