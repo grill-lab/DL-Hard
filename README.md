@@ -35,11 +35,11 @@ Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a>
 Correct citation: 
 
 ```
-@inproceedings{mackie2021dlhard,\
- title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},\
- author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},\
- booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
- year={2021}\
+@inproceedings{mackie2021dlhard,
+ title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},
+ author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},
+ booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ year={2021}
 }
 ```
 
