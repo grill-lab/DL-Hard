@@ -9,8 +9,8 @@
 <!-- TABLE OF CONTENTS -->
   <h5>Table of Contents</h5>
   <ol>
-    <li><a href="#overview">Overview</a>
     <li><a href="#paper">Paper</a>
+    <li><a href="#overview">Overview</a>
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#change-log">Change Log</a></li>
     <li><a href="#hard-queries">Hard Queries</a></li>
@@ -24,6 +24,22 @@
 
 Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
 Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
+
+<!-- Paper -->
+<h3 id="paper">Paper</h3>
+
+This work is published as a resource paper in SIGIR 2021.
+
+Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a>
+  
+Correct citation: 
+
+@inproceedings{mackie2021dlhard,\
+ title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},\
+ author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},\
+ booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
+ year={2021}\
+}
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
@@ -43,23 +59,6 @@ that promotes research on neural ranking methods by focusing on challenging and 
 Note, NIST judged/unjudged DL query counts in the diagram are approximated for simplicity (see track <a href="https://arxiv.org/abs/2105.07975">overview paper</a> for specifics). 
 Due to the differences in TREC DL task querysets, DL-HARD provides 25 new document judgments and 27 new passage judgments. 
 Both DL-HARD tasks have 50 queries overall.
-
-
-<!-- Paper -->
-<h3 id="paper">Paper</h3>
-
-This work is published as a resource paper in SIGIR 2021.
-
-Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a>
-  
-Correct citation: 
-
-@inproceedings{mackie2021dlhard,\
- title={How Deep is your Learning: the DL-HARD Annotated Deep Learning Dataset},\
- author={Mackie, Iain and Dalton, Jeffrey and Yates, Andrew},\
- booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
- year={2021}\
-}
 
 
 <!-- Dataset -->
