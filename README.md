@@ -22,17 +22,10 @@
     <li><a href="#future-work">Future Work</a></li>
   </ol>
 
-Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
-Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
-
 <!-- Paper -->
 <h3 id="paper">Paper</h3>
 
-This work is published as a resource paper in SIGIR 2021.
-
-Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a>
-  
-Correct citation: 
+This work is published as a resource paper in SIGIR 2021. Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a> 
 
 ```
 @inproceedings{mackie2021dlhard,
@@ -45,6 +38,9 @@ Correct citation:
 
 <!-- Overview -->
 <h3 id="overview">Overview</h3>
+
+Colab demo (Pyserini): <a href="https://colab.research.google.com/drive/1SduCZFg4ha46NOYPAeO2XWWLKtgLhG8C?usp=sharing">link</a>\
+Colab demo (PyTerrier): <a href="https://colab.research.google.com/drive/1R-YP4yYfbSE2r1IfbcGnG_s7zTkM7zjM?usp=sharing">link</a>
 
 <p> Deep Learning Hard (DL-HARD) is a new annotated dataset building upon standard deep learning benchmark evaluation 
 datasets. It builds on TREC Deep Learning (<a href="https://microsoft.github.io/msmarco/TREC-Deep-Learning-2020.html">DL</a>) 
