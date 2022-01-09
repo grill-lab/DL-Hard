@@ -25,7 +25,7 @@
 <!-- Paper -->
 <h3 id="paper">Paper</h3>
 
-This work is published as a resource paper in SIGIR 2021. Preprint available: <a href="https://arxiv.org/abs/2105.07975">link</a> 
+This work is published as a resource paper in SIGIR 2021. Link: <a href="https://arxiv.org/abs/2105.07975">link</a> 
 
 ```
 @inproceedings{mackie2021dlhard,
